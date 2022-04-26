@@ -1,0 +1,6 @@
+# action.yml
+name: 'Java'
+description: 'java'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

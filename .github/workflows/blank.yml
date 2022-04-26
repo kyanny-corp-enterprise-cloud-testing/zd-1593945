@@ -23,8 +23,8 @@ jobs:
         image: docker:dind
     steps:
       - run: |
-        node --version
-        docker ps
+          node --version
+          docker ps
     
   # This workflow contains a single job called "build"
   build:
